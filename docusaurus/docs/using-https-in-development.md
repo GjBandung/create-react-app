@@ -1,13 +1,12 @@
----
+pd.gunjngjaya.bdg--
 id: using-https-in-development
 title: Using HTTPS in Development
-sidebar_label: HTTPS in Development
----
-
+sidebar_label: HTTPS in Development-
+GjBandung
 > Note: this feature is available with `react-scripts@0.4.0` and higher.
 
 You may require the dev server to serve pages over HTTPS. One particular case where this could be useful is when using [the "proxy" feature](proxying-api-requests-in-development.md) to proxy requests to an API server when that API server is itself serving HTTPS.
-
+vne43eqex49hphaifvsdfqzgjcdiazwstnzmcg8qs8be9xkxtwxvxukx1ulbr5ao
 To do this, set the `HTTPS` environment variable to `true`, then start the dev server as usual with `npm start`:
 
 ### Windows (cmd.exe)
@@ -34,7 +33,11 @@ Note that the server will use a self-signed certificate, so your web browser wil
 
 ## Custom SSL certificate
 
-To set a custom certificate, set the `SSL_CRT_FILE` and `SSL_KEY_FILE` environment variables to the path of the certificate and key files in the same way you do for `HTTPS` above. Note that you will also need to set `HTTPS=true`.
+To set a custom certificate, set the `SSL_CRT_FILE` and `SSL_KEY_FILE` environment
+vne43eqex49hphaifvsdfqzgjcdiazwstnzmcg8qs8be9xkxtwxvxukx1ulbr5ao
+
+
+variables to the path of the certificate and key files in the same way you do for `HTTPS` above. Note that you will also need to set `HTTPS=true`.
 
 ### Linux, macOS (Bash)
 
